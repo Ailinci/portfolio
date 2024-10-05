@@ -274,7 +274,6 @@ ul.habilidades {
   justify-content: center;
   height: 6rem;
   width: 7rem;
-  padding: 10px;
   text-align: center;
 }
 
@@ -343,6 +342,9 @@ ul.habilidades {
 @media (max-width: 768px) {
   .contact-item-img {
     display: none;
+  }
+  .contact-item{
+    width: 100%;
   }
 }
 

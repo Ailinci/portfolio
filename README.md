@@ -1,15 +1,15 @@
-# Mi Portafolio - Ailín Ojeda Pytel
+# Mi Portafolio - Ailín Ojeda Pytel 👋🏻
 
-## Descripción
+## Descripción 📝
 
 Este es el portafolio personal de Ailín Ojeda Pytel, una programadora web full stack. Aquí puedes encontrar información sobre mí, mis habilidades, mis proyectos y cómo contactarme.
 
-## Tecnologías Utilizadas
+## Tecnologías Utilizadas 🎯
 
 - HTML
 - CSS
 
-## Estructura del Proyecto
+## Estructura del Proyecto 🛠️
 
 El portafolio está dividido en varias secciones:
 
