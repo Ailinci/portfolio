@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Ailin</title>
+    <link rel="stylesheet" href="./styles/styles.css"> 
+    <link rel="icon" href="./assets/michi-foto.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div>
+            <h1>Ailín Ojeda Pytel</h1>
+            <p>Programadora Web Full Stack</p>
+        </div>
+        <img class="hero-img" src="./assets/michi-foto.jpg" alt="Foto" >
+    </header>
+
+    <main>
+        <div class="presentacion">
+          <section class="about">
+              <h2>Sobre mí <span class="about-span">✍🏻</span></h2>
+              <p>
+                Buenas 👋🏻! Soy Ailu, tengo 26 años, y hace 3 que me dedico al desarrollo de software.
+              </p>
+              <p>
+                Sigo formándome contítnuamente en el área del desarrollo web, con herramientas como Next.js y Node.Js.
+              </p>
+              <p>
+                Tengo dos michis Janito y Sushi 🐱. Me gusta mucho leer libros de ficción y jugar jueguitos 🎮
+              </p>
+          </section>
+          <!-- HABILIDADES  -->
+          <section>
+              <h2>Habilidades 🎖️</h2>
+              <ul class="habilidades">
+                  <li class="habilidades-item">
+                      <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+                      <span class="habilidades-name">HTML</span>
+                  </li>
+                  <li class="habilidades-item">
+                      <img width="48" height="48" src="https://img.icons8.com/fluency/48/css3.png" alt="css3"/>
+                      <span class="habilidades-name">CSS</span>
+                  </li>
+                  <li class="habilidades-item">
+                      <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+                      <span class="habilidades-name">JavaScript</span>
+  
+                  </li>
+                  <li class="habilidades-item">
+                      <img width="48" height="48" src="https://img.icons8.com/fluency/48/node-js.png" alt="node-js"/>
+                      <span class="habilidades-name">Node</span>
+                  </li>
+                  <li class="habilidades-item">
+                      <img width="48" height="48" src="https://img.icons8.com/officel/80/react.png" alt="external-react-social-media-tanah-basah-basic-outline-tanah-basah"/>                    </td>
+                      <span class="habilidades-name">React</span>
+                  </li>
+              </ul>
+          </section>
+        </div>
+        <!-- PROYECTOS -->
+        <section>
+          <h2>Proyectos 🎯</h2>
+          <table class="proyectos">
+            <tr class="proyectos-header">
+              <th>Nombre del Proyecto</th>
+              <th>Descripción</th>
+              <th>Enlace</th>
+            </tr>
+            <tr>
+              <td data-label="Proyecto">Proyecto 1</td>
+              <td data-label="Descripción">Un proyecto increíble que muestra mis habilidades en HTML y CSS.</td>
+              <td data-label="Enlace"><a href="#" class="project-link">Ver proyecto</a></td>
+            </tr>
+            <tr>
+              <td data-label="Proyecto">Proyecto 2</td>
+              <td data-label="Descripción">Una aplicación interactiva usando JavaScript y APIs externas.</td>
+              <td data-label="Enlace"><a href="#" class="project-link">Ver proyecto</a></td>
+            </tr>
+            <tr>
+              <td data-label="Proyecto">Proyecto 3</td>
+              <td data-label="Descripción">Un sitio web dinámico construido con React y Node.js.</td>
+              <td data-label="Enlace"><a href="#" class="project-link">Ver proyecto</a></td>
+            </tr>
+          </table>
+        </section>
+        <!-- CONTACTO -->
+        <section class="contact">
+            <div class="contact-item">
+                <h2>Contacto <span class="contact-span">📲</span></h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="contact-item-img">
+                <img width="500" height="500" src="https://img.icons8.com/clouds/500/contact.png" alt="contact"/>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Ailín Ojeda Pytel - 2024 </p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/ailinojedapytel/">
+                <img width="50" height="50" src="https://img.icons8.com/clouds/50/linkedin.png" alt="linkedin"/>
+            </a></li>
+            <li><a href="https://github.com/Ailinci">
+                <img width="50" height="50" src="https://img.icons8.com/clouds/50/github.png" alt="github"/>
+            </a></li>
+        </ul>
+    </footer>
+</body>
+</html>
